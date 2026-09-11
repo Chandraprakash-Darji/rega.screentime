@@ -369,7 +369,7 @@ Panel {
 
         Text {
           textFormat: Text.PlainText
-          text: "Unlocked time · 15s samples · per-URL needs ActivityWatch + web extension (x86 only, not on ARM)"
+          text: "Unlocked time · 15s samples · per-URL needs ActivityWatch browser extension"
           color: root.dimmed
           font.family: root.fontFamily
           font.pixelSize: Style.font.caption

@@ -35,8 +35,11 @@ Or clone manually into `~/.config/omarchy/plugins/rega.screentime` then enable.
 ## Browser tabs / URLs
 
 Shows tab **titles** (e.g. `GitHub - Chromium`). Per-URL history needs
-ActivityWatch `aw-watcher-web` extension, which requires x86 — not available
-on ARM Macs, so titles are the best native option.
+the ActivityWatch browser extension (`aw-watcher-web`) pointed at a running
+ActivityWatch server. Note: on this Asahi Linux (ARM) system the AUR
+`activitywatch-bin` package ships x86_64 binaries only, so there is no native
+server build here — macOS itself does have ARM ActivityWatch builds, but this
+plugin runs on the Linux side.
 
 ## Files
 
