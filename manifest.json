@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rega.screentime",
+  "name": "Screen Time",
+  "version": "0.1.0",
+  "author": "rega",
+  "description": "Native screen-time tracker for Hyprland (ARM-friendly, no ActivityWatch needed). Bar shows today total, popup shows week + top apps/tabs.",
+  "homepage": "",
+  "keywords": [
+    "screentime",
+    "usage",
+    "productivity",
+    "tracking"
+  ],
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Screen Time",
+    "description": "Today screen time (◷ 3h12m)",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
